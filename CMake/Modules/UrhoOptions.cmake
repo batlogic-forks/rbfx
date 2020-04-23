@@ -137,7 +137,7 @@ _option(URHO3D_NO_EDITOR_PLAYER_EXE "Do not build editor or player executables."
 _option(URHO3D_CONTAINER_ADAPTERS "Enable EASTL-to-Urho container adapters for easier porting of legacy code." OFF)
 
 # Compute
-_option(URHO3D_COMPUTE            "Enable Compute"                                        OFF)
+_option(URHO3D_COMPUTE            "Enable Compute"                                        ON)
 
 if (WIN32)
     set(URHO3D_GRAPHICS_API D3D11 CACHE STRING "Graphics API")
